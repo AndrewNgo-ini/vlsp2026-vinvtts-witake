@@ -1,0 +1,16 @@
+This software uses third-party models and components under their own licences (see MODELS_AND_DATA.md).
+
+OmniVoice audio tokenizer (Boson AI Higgs Audio 2 tokenizer, bundled with the OmniVoice models used here):
+
+  Built with Higgs Materials licensed from Boson AI USA, Inc., Copyright Boson AI USA, Inc., All Rights Reserved and
+  Meta Llama 3 licensed under the Meta Llama 3 Community License, Copyright Meta Platforms, Inc., All Right Reserved.
+
+  "Meta Llama 3 is licensed under the Meta Llama 3 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved."
+  "Boson Higgs Audio 2 is licensed under the Boson Community License, Copyright © Boson AI USA, Inc. All Rights Reserved."
+
+  The Boson Higgs Audio 2 Community License ships with the tokenizer (audio_tokenizer/LICENSE in the OmniVoice model files);
+  use is subject to it and to the Meta Llama 3 Acceptable Use Policy (https://llama.meta.com/llama3/use-policy).
+
+OmniVoice (k2-fsa): code Apache-2.0; pretrained weights CC-BY-NC.
+Zipformer-vi (hynt/Zipformer-30M-RNNT-6000h): CC-BY-NC-ND 4.0, used unmodified.
+LaughterSegmentation (omine-me): code MIT; trained model released for research use.

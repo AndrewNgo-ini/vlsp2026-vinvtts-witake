@@ -1,0 +1,31 @@
+[project]
+name = "vinvtts"
+version = "0.0.1"
+description = "VLSP 2026 ViNV-TTS phase-0 scripts: judge, F5-TTS data prep, serving skeleton"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "torch>=2.4",
+    "torchaudio>=2.4",
+    "transformers>=4.45",
+    "accelerate",
+    "soundfile",
+    "librosa",
+    "numpy",
+    "jiwer",
+    "speechbrain>=1.0",
+    "fastapi",
+    "uvicorn",
+    "httpx",
+    "pandas",
+    "pyarrow",
+    "speechmos",
+    "onnxruntime",
+    "sherpa-onnx",
+    "sherpa-onnx-core",  # not in sherpa-onnx index metadata (dynamic), so uv misses it
+    "scikit-learn>=1.9.1",
+    "onnx",
+    "onnx2torch",   # dnsmos_gpu.py: DNSMOS nets on CUDA
+]
+
+[tool.uv]
+package = false
